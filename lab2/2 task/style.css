@@ -1,0 +1,172 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: white;
+    color: #1c1e21;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+    min-height: 80vh;
+}
+
+.left-column {
+    flex: 1;
+    text-align: center;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-icon {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 20px;
+    align-self: flex-start;
+    margin-left: 100px;
+}
+
+.headline {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    max-width: 500px;
+}
+
+.highlight {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.collage {
+    max-width: 450px;
+}
+
+.right-column {
+    flex: 0.8;
+    border-left: 1px solid #dbdbdb;
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 12px;
+    background-color: #fcfcfc;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.login-btn {
+    width: 100%;
+    background-color: #8ab6f1;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.forgot-password {
+    text-align: center;
+    color: #00376b;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.fb-login-btn {
+    background-color: white;
+    color: #385185;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fb-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    object-fit: contain;
+}
+
+.create-account-btn {
+    background-color: white;
+    color: #0095f6;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.meta-logo {
+    text-align: center;
+    margin-top: 30px;
+    color: #8e8e8e;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meta-logo img {
+    height: 12px;
+}
+
+footer {
+    border-top: 1px solid #dbdbdb;
+    padding: 20px;
+    margin-top: 20px;
+    color: #8e8e8e;
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #8e8e8e;
+    text-decoration: none;
+    margin: 0 8px;
+}
