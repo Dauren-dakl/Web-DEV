@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Список дел</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Список дел</h1>
+    </header>
+
+    <main>
+        <h2 class="title">Мои задачи</h2>
+
+        <form id="todo-form">
+            <label for="new-task-input" hidden>Новая задача</label>
+            <input type="text" id="new-task-input" placeholder="Новая задача" />
+            <button type="submit">Добавить</button>
+        </form>
+
+        <ul id="task-list"></ul>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
